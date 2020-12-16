@@ -10,7 +10,6 @@ for line in data:
     lowerlimit=(line.split(' ')[0]).split('-')[0]
     upperlimit=(line.split(' ')[0]).split('-')[1]
     password=line.split(' ')[2]
-    #print(lowerlimit,upperlimit,chartotest,password)
     counter=0
     for char in password:
         if char==chartotest:
