@@ -1,7 +1,4 @@
-import re
+list=[[1,2],[3,4]]
 
-input = '#121212'
-
-print(input)
-print(re.match("#[0-9a-zA-Z]{6}",input))
-
+for x,y in list:
+    print(x,y)
