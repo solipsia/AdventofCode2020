@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>53af5270-cd14-4121-ad48-efd38ca59d2c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>16-2.py</StartupFile>
+    <StartupFile>18-2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="18-2.py" />
+    <Compile Include="18-1.py" />
+    <Compile Include="17-1.py" />
     <Compile Include="16-2.py" />
     <Compile Include="16-1.py" />
     <Compile Include="15-2.py" />

@@ -1,4 +1,6 @@
-list=[[1,2],[3,4]]
+str="hello (this only please)..(not this)."
 
-for x,y in list:
-    print(x,y)
+print(str,str[6])
+print(str[6+1:][:str[6+1:].index(")")])
+print(str[6+1:].index(")"))
+print(str[6+2+str[6+1:].index(")")])
